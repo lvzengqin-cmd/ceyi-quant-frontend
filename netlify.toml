@@ -6,9 +6,8 @@
   from = "/api/*"
   to = "https://ceyi-api.onrender.com/api/:splat"
   status = 200
-  force = true
 
-[[headers]]
+[headers]
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
