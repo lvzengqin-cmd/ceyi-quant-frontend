@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://web-production-79218.up.railway.app/api/:splat"
+  to = "https://ceyi-api.onrender.com/api/:splat"
   status = 200
   force = true
 
